@@ -16,11 +16,12 @@ body{
     height: 3rem;
 }
 
-.content{
+.container{
     background-color: red;
 }
 
 .footer{
     background-color: lime;
     height: 6rem;
+    margin-top: auto;
 }
