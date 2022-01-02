@@ -13,12 +13,13 @@ body{
 
 .header{
     height: 3rem;
+    background-color: #FF9190;
 }
 
 .menu{
     display: flex;
     line-height: 3rem;
-    background-color: #FF9190;
+    
 }
 
 .menu-item{
@@ -29,7 +30,7 @@ body{
 }
 
 .menu-item:hover{
-    flex:8;
+    flex:6;
     outline: 2px solid brown;
 }
 
@@ -44,10 +45,28 @@ body{
 
 .aside{
     flex:0 0 25%;
+    border-left: 1px solid brown;
 }
 
-.footer{
+.footer{ 
     height: 6rem;
     margin-top: auto;
     background-color: #FF9190;
+}
+
+.footer-menu{
+    display:flex;
+    line-height: 6rem;
+}
+
+.footer-item{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    transition:flex 0.8s;
+}
+
+.footer-item:hover{
+    outline: 2px solid brown;
+    flex:5 ;
 }
