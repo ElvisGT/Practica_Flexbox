@@ -16,6 +16,23 @@ body{
     height: 3rem;
 }
 
+.menu{
+    display: flex;
+    line-height: 3rem;
+}
+
+.menu-item{
+    list-style: none;
+    flex: 1;
+    outline: 1px solid black;
+    text-align: center;
+    transition: flex .5s;
+}
+
+.menu-item:hover{
+    flex:8;
+}
+
 .container{
     display: flex;
     height: inherit;
