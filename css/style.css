@@ -17,16 +17,18 @@ body{
 }
 
 .container{
-    background-color: red;
     display: flex;
+    height: inherit;
 }
 
 .content{
     background-color: magenta;
+    flex:1;
 }
 
 .aside{
     background-color: maroon;
+    flex:0 0 25%;
 }
 
 .footer{
