@@ -12,7 +12,7 @@ body{
 }
 
 .header{
-    background-color: aqua;
+    outline: 1px solid aqua;
     height: 3rem;
 }
 
@@ -22,17 +22,17 @@ body{
 }
 
 .content{
-    background-color: magenta;
+    outline:1px solid magenta;
     flex:1;
 }
 
 .aside{
-    background-color: maroon;
+    outline: 1px solid maroon;
     flex:0 0 25%;
 }
 
 .footer{
-    background-color: lime;
+    outline: 1px solid lime;
     height: 6rem;
     margin-top: auto;
 }
