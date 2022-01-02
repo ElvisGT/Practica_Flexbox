@@ -12,25 +12,25 @@ body{
 }
 
 .header{
-    outline: 1px solid aqua;
     height: 3rem;
 }
 
 .menu{
     display: flex;
     line-height: 3rem;
+    background-color: #FF9190;
 }
 
 .menu-item{
     list-style: none;
     flex: 1;
-    outline: 1px solid black;
     text-align: center;
-    transition: flex .5s;
+    transition: flex 0.8s;
 }
 
 .menu-item:hover{
     flex:8;
+    outline: 2px solid brown;
 }
 
 .container{
@@ -39,17 +39,15 @@ body{
 }
 
 .content{
-    outline:1px solid magenta;
     flex:1;
 }
 
 .aside{
-    outline: 1px solid maroon;
     flex:0 0 25%;
 }
 
 .footer{
-    outline: 1px solid lime;
     height: 6rem;
     margin-top: auto;
+    background-color: #FF9190;
 }
