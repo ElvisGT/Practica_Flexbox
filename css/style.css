@@ -18,6 +18,15 @@ body{
 
 .container{
     background-color: red;
+    display: flex;
+}
+
+.content{
+    background-color: magenta;
+}
+
+.aside{
+    background-color: maroon;
 }
 
 .footer{
